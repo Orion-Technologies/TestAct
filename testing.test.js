@@ -15,3 +15,8 @@ test("UpperCase", () => {
   const name = 'JOSE';
   expect(greet(name)).toBe("HELLO " + name + "!");
 });
+
+test("Two names", () => {
+  const name = ["Hello, ", "Jose","Pep"];
+  expect(greet(name)).toBe("Hello, " + "Jose" + "," + "Pep"); 
+})
