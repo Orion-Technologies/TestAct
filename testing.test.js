@@ -10,3 +10,8 @@ test("Hello there!", () => {
   const name = null;
   expect(greet(name)).toBe("Hello there!");
 });
+
+test("UpperCase", () => {
+  const name = 'JOSE';
+  expect(greet(name)).toBe("HELLO " + name + "!");
+});
