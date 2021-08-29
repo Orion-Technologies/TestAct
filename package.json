@@ -1,0 +1,15 @@
+{
+  "name": "testact",
+  "version": "1.0.0",
+  "description": "Testing Exercise",
+  "main": "testing.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "abel.archila@gmail.com",
+  "license": "MIT"
+}
