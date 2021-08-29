@@ -6,12 +6,11 @@ function greet(name) {
         return "Hello there!";
     } else if (name === name.toUpperCase()) {
         return "HELLO " + name.toUpperCase() + "!";
+     } else if (name.isArray()) {
+        name = ['Jose', 'Pep'];
+        let nameF = [""]
+        }
      }
+     
 
-     let array = ["Hello, "];
-     for(let i = 1; i < name.length; i++) {
-        array += name[i] + ",";  
-        return array;
-     }
-
-}
+     function 
