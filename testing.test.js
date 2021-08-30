@@ -20,3 +20,8 @@ test("Two names", () => {
   const name = ["Jose","Pep"];
   expect(greet(name)).toBe("Hello, " + "Jose" + "," + "Pep"); 
 })
+
+test("A lot of names", () => {
+  const name = ["Alex","Arsene","Jose","Zidane"];
+  expect(greet(name)).toBe("Hello, " + "Alex" + "," + "Arsene" + "," + "Jose" + "," + "Zidane");
+});
