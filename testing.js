@@ -6,8 +6,8 @@ function greet(name) {
         return "Hello there!";
     } else if (typeof name === 'object') {
         return "Hello, " + name;
-        } else if (name === name.toUpperCase()) {
+    } else if (name === name.toUpperCase()) {
         return "HELLO " + name + "!";
-     }
+    }
 }
      
